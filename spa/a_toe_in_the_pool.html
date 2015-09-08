@@ -23,7 +23,7 @@
       bottom : 0;
       right : 2px;
       width : 300px;
-      height : 30px;
+      height : 16px;
       cursor : pointer;
       border-radius : 8px 0 0 0;
       background-color : white;
@@ -40,10 +40,10 @@
     white : true,
     */
 
-    var spa =(function ($) {
+    var spa = (function ($) {
       var
       configMap = {
-        extended_height : 700,
+        extended_height : 434,
         extended_title : 'click to retract',
         retracted_height : 16,
         retracted_title : 'click to extend',
@@ -73,7 +73,7 @@
         toggleSlider();
         return false;
       };
-      initModule = function($container) {
+      initModule = function( $container ) {
         $container.html(configMap.template_html);
         $chatSlider = $container.find('.spa-slider');
         $chatSlider
