@@ -11,22 +11,22 @@
     }
     #spa {
       position : absolute;
-      top : 8px;
-      left : 8px;
-      bottom : 8px;
-      right : 8px;
-      border-radius : 8px 8px 0 8px;
+      top : 20px;
+      left : 20px;
+      bottom : 20px;
+      right : 20px;
+      border-radius : 20px 20px 0 20px;
       background-color : orange;
     }
     .spa-slider {
       position : absolute;
       bottom : 0;
-      right : 2px;
-      width : 300px;
-      height : 16px;
+      right : 20px;
+      width : 500px;
+      height : 26px; /*when changing height here you have to change retracted_height*/
       cursor : pointer;
       border-radius : 8px 0 0 0;
-      background-color : white;
+      background-color : purple;
     }
   </style>
   <script type="text/javascript" src=
@@ -43,9 +43,9 @@
     var spa = (function ($) {
       var
       configMap = {
-        extended_height : 434,
+        extended_height : 700,
         extended_title : 'click to retract',
-        retracted_height : 16,
+        retracted_height : 26, /*this is where you change if changed above*/
         retracted_title : 'click to extend',
         template_html : '<div class="spa-slider"><\/div>'
       },
