@@ -11,9 +11,9 @@
       position: absolute;
     }
     .spa-shell-head {
-      top: 3px;
-      left: 20px;
-      right: 20px;
+      top: 0px;
+      left: 0px;
+      right: 0px;
       height: 40px;
       background: grey;
     }
@@ -26,15 +26,15 @@
     }
     .spa-shell-head-acct {
       top: 4px;
-      right: 10px;
-      width: 264px;
+      right: 0px;
+      width: 64px;
       height: 32px;
       background: plum;
     }
     .spa-shell-head-search {
       top: 4px;
-      right: 264px;
-      width: 348px;
+      right: 64px;
+      width: 248px;
       height: 32px;
       background: brown;
     }
@@ -51,7 +51,7 @@
     }
     .spa-shell-main-nav {
       width  : 250px;
-      background : #eee;
+      background : yellow;
     }
     .spa-x-closed .spa-shell-main-nav {
       width  : 0;
@@ -59,7 +59,7 @@
     .spa-shell-main-content {
       left  : 250px;
       right : 0;
-      background : #ddd;
+      background : mediumblue;
     }
     .spa-x-closed .spa-shell-main-content {
       left : 0;
@@ -69,19 +69,19 @@
     bottom : 0;
     left   : 0;
     right  : 0;
-    height : 20px;
+    height : 40px;
   }
   .spa-shell-chat {
     bottom     : 0;
-    right      : 20;
+    right      : 0;
     width      : 300px;
     height     : 15px;
     background : lightgreen;
     z-index    : 2;
   }
   .spa-shell-modal {
-    margin-top    : -400px;
-    margin-left   : -520px;
+    margin-top    : -200px;
+    margin-left   : -200px;
     top           : 50%;
     left          : 50%;
     width         : 400px;
@@ -95,6 +95,7 @@
 <body>
   <div id="spa">
     <div class="spa-shell-head">
+      <div class="spa-shell-head-logo"></div>
       <div class="spa-shell-head-acct"></div>
       <div class="spa-shell-head-search"></div>
     </div>
