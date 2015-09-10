@@ -79,8 +79,8 @@ z-index    : 1;
   background : orangered;
 }
 .spa-shell-modal {
-margin-top    : -400px;
-margin-left   : -520px;
+margin-top    : -200px;
+margin-left   : -200px;
 top           : 50%;
 left          : 50%;
 width         : 400px;
