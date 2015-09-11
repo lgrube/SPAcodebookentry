@@ -9,6 +9,8 @@
 .spa-shell-modal {
   position : absolute;
 }
+/*-------------------------top window with 3 modals in it----*/
+/*---------main background of top window-------------*/
 .spa-shell-head {
   top    : 0;
   left   : 0;
@@ -16,6 +18,8 @@
   height : 40px;
   background: grey;
 }
+/*-------------end of main background--------------*/
+/*----------------upper left modal in main background----*/
 .spa-shell-head-logo {
   top        : 4px;
   left       : 4px;
@@ -23,6 +27,8 @@
   width      : 128px;
   background : purple;
 }
+/*----------end of left modal in main background--------------*/
+/*-----------first right corner modal in main background------*/
 .spa-shell-head-acct {
   top        : 4px;
   right      : 0;
@@ -30,6 +36,8 @@
   height     : 32px;
   background : plum;
 }
+/*-----------------end of first right corner modal---------------*/
+/*-----------second right modal next to corner modal---------------*/
 .spa-shell-head-search {
   top        : 4px;
   right      : 64px;
@@ -37,6 +45,7 @@
   height     : 32px;
   background : blue;
 }
+/*---------------end of second right modal--------------*/
 
 .spa-shell-main {
   top    : 40px;
@@ -49,23 +58,35 @@
   top    : 0;
   bottom : 0;
 }
+/* ------------controls color of left side------------*/
 .spa-shell-main-nav {
   width  : 250px;
   background : orangered;
 }
+/*changes left side color*/
+.spa-shell-main-nav:hover {
+  background: purple;
+  }
   .spa-x-closed .spa-shell-main-nav {
     width  : 0;
   }
+/*-------------end of main nav on left side--------------*/
 
+/*-----------------beginning of main window------------*/
 .spa-shell-main-content {
   left  : 250px;
   right : 0;
   background : skyblue;
 }
+.spa-shell-main-content:hover {
+  background: green;
+}
   .spa-x-closed .spa-shell-main-content {
     left : 0;
   }
+/*-------------------end of main window------------------*/
 
+/*-------------controls chat window----------------------*/
 .spa-shell-foot {
   bottom : 0;
   left   : 0;
@@ -85,7 +106,9 @@
   .spa-shell-chat:hover {
     background : orangered;
   }
+/*----------------end of chat window--------------*/
 
+/*-----------------controls center window in middle of screen-----*/
 .spa-shell-modal {
   margin-top    : -200px;
   margin-left   : -200px;
@@ -97,3 +120,7 @@
   border-radius : 3px;
   z-index       : 2;
 }
+.spa-shell-modal:hover {
+  background: yellow;
+}
+/*------------------end of center window-----------------*/
