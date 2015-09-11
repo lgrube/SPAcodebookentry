@@ -239,7 +239,11 @@
         }
       }
 
-      return key_val_arr
+      return key_val_array.join( delimit_char );
+    };
+    // End utility /makeAnchorString/
+    //-------------------- END UTILITY METHODS -------------------
+
     //------------------- BEGIN PUBLIC METHODS -------------------
     // Begin public method /setAnchor/
     // Purpose     :
