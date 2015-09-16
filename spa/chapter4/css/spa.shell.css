@@ -5,7 +5,7 @@
 
 .spa-shell-head, .spa-shell-head-logo, .spa-shell-head-acct,
 .spa-shell-head-search, .spa-shell-main, .spa-shell-main-nav,
-.spa-shell-main-content, .spa-shell-foot, .spa-shell-chat,
+.spa-shell-main-content, .spa-shell-foot,
 .spa-shell-modal {
   position : absolute;
 }
@@ -63,6 +63,7 @@
   width  : 250px;
   background : orangered;
 }
+
 /*changes left side color*/
 .spa-shell-main-nav:hover {
   background: purple;
@@ -93,7 +94,7 @@
   right  : 0;
   height : 40px;
 }
-.spa-shell-chat {
+/*.spa-shell-chat {
   bottom        : 0;
   right         : 0;
   width         : 300px;
@@ -105,7 +106,7 @@
 }
   .spa-shell-chat:hover {
     background : orangered;
-  }
+  }*/
 /*----------------end of chat window--------------*/
 
 /*-----------------controls center window in middle of screen-----*/
