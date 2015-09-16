@@ -35,8 +35,8 @@ spa.shell = (function () {
       chat_retract_time    : 300,
       chat_extend_height   : 450,
       chat_retract_height  : 15,
-      chat_extended_title  : 'Click to retract',
-      chat_retracted_title : 'Click to extend'
+      chat_extended_title  : 'Click to go down',
+      chat_retracted_title : 'Click to blow up'
     },
     stateMap  = {
       $container        : null,
